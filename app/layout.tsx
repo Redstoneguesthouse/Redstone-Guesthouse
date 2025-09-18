@@ -17,8 +17,7 @@ export const metadata: Metadata = {
   title: "The Redstone Guest House - Luxury Boutique Hotel in Blackpool",
   description:
     "A 5★ Boutique Guest House in Blackpool. Luxury accommodation with free parking, cooked-to-order breakfast, and superfast Wi-Fi.",
-  generator: "v0.app",
-}
+  }
 
 export default function RootLayout({
   children,
