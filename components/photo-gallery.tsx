@@ -258,12 +258,12 @@ const galleryImages = [
     description: "Contemporary room with flat-screen TV and luxury bathrobes",
   },
   {
-    id: 38,
-    src: "/images/double-king-room-3.jpg",
-    category: "Rooms",
-    title: "Double King Room - Elegant Comfort",
-    description: "Beautifully appointed room with wooden furniture and modern amenities",
-  },
+  id: 38,
+  src: "/images/8-Double-King-Room-Ensuite-Room-3.jpg",
+  category: "Rooms",
+  title: "Double King Room - Elegant Comfort",
+  description: "Beautifully appointed room with wooden furniture and modern amenities",
+},
   {
     id: 39,
     src: "/images/double-king-room-3-alt.jpg",
@@ -324,9 +324,17 @@ const galleryImages = [
     id: 47,
     src: "/images/crystal-chandelier.jpg",
     category: "Lounge",
-    title: "Crystal Chandelier",
-    description: "Stunning crystal chandelier with multiple crystal spheres and elegant lighting",
+    title: "Crystal Chandelier Entrance",
+    description: "Stunning crystal chandelier with multiple crystal spheres and elegant lighting during the nighttime",
   },
+  {
+  id: 48,
+  src: "/images/2-chandelier-redstone.jpg",
+  category: "Lounge",
+  title: "Redstone Crystal Chandelier",
+  description: "Stunning crystal chandelier with multiple crystal spheres and elegant lighting",
+},
+
 ]
 
 const categories = ["All", "Rooms", "Lounge", "Surroundings"]
