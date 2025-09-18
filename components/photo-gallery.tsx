@@ -251,13 +251,6 @@ const galleryImages = [
     description: "Classic room with traditional furnishings and warm lighting",
   },
   {
-    id: 37,
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/4-Double-King-Room-Ensuite-Room-3-min.JPG-Kl3qaC1wsuTQdqL0ULZQGnrRTmZb3k.jpeg",
-    category: "Rooms",
-    title: "Double King Room - Modern Amenities",
-    description: "Contemporary room with flat-screen TV and luxury bathrobes",
-  },
-  {
   id: 38,
   src: "/images/8-Double-King-Room-Ensuite-Room-3.jpg",
   category: "Rooms",
