@@ -208,13 +208,13 @@ const galleryImages = [
     title: "Double King Room - Seating Area",
     description: "Comfortable seating area with wooden wardrobe and tea facilities",
   },
-  {
-    id: 31,
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/4-Double-King-Room-Ensuite-Room-1.JPG-Tw2biMANhxxWo5XfgVPOeWrdPNfskb.jpeg",
-    category: "Rooms",
-    title: "Double King Room - Elegant Layout",
-    description: "Spacious room with king bed, wooden furniture, and crystal lamps",
-  },
+ {
+  id: 31,
+  src: "/images/Double-King-Room-Ensuite-Room-3/4-Double-King-Room-Ensuite-Room-3.JPG",
+  category: "Rooms",
+  title: "Double King Room - Elegant Layout",
+  description: "Spacious room with king bed, wooden furniture, and crystal lamps",
+},
   {
     id: 32,
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/9-Double-King-Room-Ensuite-Room-3-min.JPG-kMgEQPy1WHcFAHyFhDHBPHl5NjPXjq.jpeg",
@@ -329,7 +329,7 @@ const galleryImages = [
 },
 {
   id: 50,
-  src: "/images/Double-King-Room-Ensuite-Room-5/4-Double-King-Room-Ensuite-Room-3.jpg", // updated path
+  src: "/images/Double-King-Room-Ensuite-Room-3/7-Double-King-Room-Ensuite-Room-3.jpg", // updated path
   category: "Rooms",
   title: "Double King Room - Elegant Layout",
   description: "Spacious room with king bed, wooden furniture, and crystal lamps",
