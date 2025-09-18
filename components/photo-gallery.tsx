@@ -320,20 +320,20 @@ const galleryImages = [
     title: "Main Dining Hall",
     description: "Grand dining room with piano, chandelier, and elegant breakfast setup",
   },
-  {
-    id: 47,
-    src: "/images/crystal-chandelier.jpg",
-    category: "Lounge",
-    title: "Crystal Chandelier Entrance",
-    description: "Stunning crystal chandelier with multiple crystal spheres and elegant lighting during the nighttime",
-  },
-  {
+ {
   id: 48,
   src: "/images/2-chandelier-redstone.jpg",
   category: "Lounge",
   title: "Redstone Crystal Chandelier",
   description: "Stunning crystal chandelier with multiple crystal spheres and elegant lighting",
 },
+{
+  id: 49,
+  src: "/images/6-chandelier-redstone.jpg",
+  category: "Lounge",
+  title: "Redstone Crystal Chandelier 2",
+  description: "Another view of the redstone crystal chandelier in the lounge",
+}
 
 ]
 
