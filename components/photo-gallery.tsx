@@ -326,8 +326,14 @@ const galleryImages = [
   category: "Lounge",
   title: "Redstone Crystal Chandelier 2",
   description: "Another view of the redstone crystal chandelier in the lounge",
+},
+{
+  id: 50,
+  src: "/images/Double-King-Room-Ensuite-Room-5/4-Double-King-Room-Ensuite-Room-3.jpg", // updated path
+  category: "Rooms",
+  title: "Double King Room - Elegant Layout",
+  description: "Spacious room with king bed, wooden furniture, and crystal lamps",
 }
-
 ]
 
 const categories = ["All", "Rooms", "Lounge", "Surroundings"]
