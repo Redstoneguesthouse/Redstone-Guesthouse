@@ -318,7 +318,7 @@ const galleryImages = [
   id: 49,
   src: "/images/Decorations/6-chandelier-redstone.jpg",
   category: "Lounge",
-  title: "Redstone Crystal Chandelier 2",
+  title: "Redstone Crystal Chandelier Alternate View",
   description: "Another view of the redstone crystal chandelier in the lounge",
 }
 ]
