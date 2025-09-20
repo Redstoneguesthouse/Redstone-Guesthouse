@@ -208,13 +208,6 @@ const galleryImages = [
     title: "Double King Room - Seating Area",
     description: "Comfortable seating area with wooden wardrobe and tea facilities",
   },
- {
-  id: 31,
-  src: "/images/Double-King-Room-Ensuite-Room-3/4-Double-King-Room-Ensuite-Room-3.JPG",
-  category: "Rooms",
-  title: "Double King Room - Elegant Layout",
-  description: "Spacious room with king bed, wooden furniture, and crystal lamps",
-},
   {
     id: 32,
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/9-Double-King-Room-Ensuite-Room-3-min.JPG-kMgEQPy1WHcFAHyFhDHBPHl5NjPXjq.jpeg",
@@ -250,13 +243,6 @@ const galleryImages = [
     title: "Double King Room - Traditional Decor",
     description: "Classic room with traditional furnishings and warm lighting",
   },
-  {
-  id: 38,
-  src: "/images/8-Double-King-Room-Ensuite-Room-3.jpg",
-  category: "Rooms",
-  title: "Double King Room - Elegant Comfort",
-  description: "Beautifully appointed room with wooden furniture and modern amenities",
-},
   {
     id: 39,
     src: "/images/double-king-room-3-alt.jpg",
@@ -326,13 +312,6 @@ const galleryImages = [
   category: "Lounge",
   title: "Redstone Crystal Chandelier 2",
   description: "Another view of the redstone crystal chandelier in the lounge",
-},
-{
-  id: 50,
-  src: "/images/Double-King-Room-Ensuite-Room-3/7-Double-King-Room-Ensuite-Room-3.jpg", // updated path
-  category: "Rooms",
-  title: "Double King Room - Elegant Layout",
-  description: "Spacious room with king bed, wooden furniture, and crystal lamps",
 }
 ]
 
