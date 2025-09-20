@@ -4,7 +4,15 @@ import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Lightbox } from "@/components/lightbox"
 
+const urlsToRemove = [
+  "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/4-Double-King-Room-Ensuite-Room-3-min.JPG-Kl3qaC1wsuTQdqL0ULZQGnrRTmZb3k.jpeg",
+  "https://www.redstoneguesthouse.com/images/double-king-room-3.jpg"
+]
+
+
+
 const galleryImages = [
+  
   {
     id: 1,
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1-Deluxe-Double-King-Room-Ensuite-Room-4.JPG-Y51E5NccwNCpjd56IpekDLVW8iNf3x.jpeg",
@@ -315,6 +323,11 @@ const galleryImages = [
 }
 ]
 
+const galleryImagesFiltered = galleryImages.filter(
+  (image) => !urlsToRemove.includes(image.src)
+)
+
+
 const categories = ["All", "Rooms", "Lounge", "Surroundings"]
 
 export function PhotoGallery() {
@@ -328,12 +341,14 @@ export function PhotoGallery() {
   }, [])
 
   useEffect(() => {
-    if (selectedCategory === "All") {
-      setFilteredImages(galleryImages)
-    } else {
-      setFilteredImages(galleryImages.filter((image) => image.category === selectedCategory))
-    }
-  }, [selectedCategory])
+  if (selectedCategory === "All") {
+    setFilteredImages(galleryImagesFiltered)
+  } else {
+    setFilteredImages(
+      galleryImagesFiltered.filter((image) => image.category === selectedCategory)
+    )
+  }
+}, [selectedCategory])
 
   const openLightbox = (imageId: number) => {
     setLightboxImage(imageId)
