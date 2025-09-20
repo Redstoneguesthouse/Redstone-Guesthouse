@@ -31,7 +31,7 @@ export default function RootLayout({
     <html lang="en">
 <head>
         {/* Favicon */}
-        <link rel="icon" href="/favicon.ico?v=1" />
+        <link rel="icon" href="/favicon.ico" />
       </head>
 
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable} ${playfair.variable} antialiased`}>
