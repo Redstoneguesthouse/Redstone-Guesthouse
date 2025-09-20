@@ -252,13 +252,6 @@ const galleryImages = [
     description: "Classic room with traditional furnishings and warm lighting",
   },
   {
-    id: 40,
-    src: "/images/double-king-room-7-detail.jpg",
-    category: "Rooms",
-    title: "Double King Room - Luxury Bedding",
-    description: "Premium bedding with decorative pillows and elegant furnishings",
-  },
-  {
     id: 41,
     src: "/images/dining-breakfast-buffet.jpg",
     category: "Lounge",
