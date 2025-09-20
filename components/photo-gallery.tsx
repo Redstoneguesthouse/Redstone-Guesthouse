@@ -252,13 +252,6 @@ const galleryImages = [
     description: "Classic room with traditional furnishings and warm lighting",
   },
   {
-    id: 39,
-    src: "/images/double-king-room-3-alt.jpg",
-    category: "Rooms",
-    title: "Double King Room - Classic Style",
-    description: "Traditional room with warm lighting and sophisticated decor",
-  },
-  {
     id: 40,
     src: "/images/double-king-room-7-detail.jpg",
     category: "Rooms",
