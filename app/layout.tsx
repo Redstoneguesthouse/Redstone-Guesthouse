@@ -7,6 +7,8 @@ import { Analytics } from "@vercel/analytics/next"
 import { Suspense } from "react"
 import "./globals.css"
 
+
+
 const playfair = Playfair_Display({
   subsets: ["latin"],
   display: "swap",
@@ -27,6 +29,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+<head>
+        {/* Favicon */}
+        <link rel="icon" href="/favicon.ico?v=1" />
+      </head>
+
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable} ${playfair.variable} antialiased`}>
         <Suspense fallback={<div>Loading...</div>}>{children}</Suspense>
         <Analytics />
