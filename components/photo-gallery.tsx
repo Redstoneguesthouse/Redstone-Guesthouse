@@ -309,7 +309,7 @@ const galleryImages = [
   },
  {
   id: 48,
-  src: "/images/Decorations/2-chandelier-redstone.jpg",
+  src: "/images/Decorations/2-chandelier-redstone.JPG",
   category: "Lounge",
   title: "Redstone Crystal Chandelier",
   description: "Stunning crystal chandelier with multiple crystal spheres and elegant lighting",
