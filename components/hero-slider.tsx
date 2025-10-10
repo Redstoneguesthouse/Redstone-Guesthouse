@@ -111,7 +111,7 @@ export function HeroSlider() {
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold mb-6 text-balance">
               The Redstone Guest House
             </h1>
-            <p className="text-xl md:text-2xl lg:text-3xl mb-4 font-light">A 5★ Boutique Guest House in Blackpool</p>
+            <p className="text-xl md:text-2xl lg:text-3xl mb-4 font-light">A 5★ Boutique Experience by the Seaside</p>
             <p
               className={`text-lg md:text-xl mb-8 text-white/90 max-w-2xl mx-auto transition-all duration-700 ${
                 isTransitioning ? "opacity-0 translate-y-4" : "opacity-100 translate-y-0"
